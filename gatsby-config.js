@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Patricia Falandysz | Creative developer',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }

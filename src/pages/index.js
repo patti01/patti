@@ -1,14 +1,19 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Card from '../components/Card';
 
 const IndexPage = () => (
   <div>
     <div className="Hero">
       <img src={require('../images/alu3.png')} id="foil"/>
       <div className="HeroGroup">
-        <h1>Hi people</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
+        <h1>Hello there</h1>
+        <p>I'm Patricia.</p>
+        <p>I am a creative developer based in Paris.</p>
+        <p>Passionate by art and design, I worked a couple of years in the art market.</p>
+        <p>and decided to use my experience, join with my interest on coding, to develop creative and innovative websites.
+          <br />Hit me up for future projects !
+        </p>
         <Link to="/page-2/">Go to page 2</Link>
       </div>
       <svg width="100%" height="1086" viewBox="0 0 100 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -20,6 +25,11 @@ const IndexPage = () => (
           " />
         </path>
       </svg>
+    </div>
+
+    <div className="Cards">
+      <h2>Works</h2>
+      <Card />
     </div>
   </div>
 )
